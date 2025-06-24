@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGPA</title>
+  <link  rel="stylesheet" href="cgpa_calc.css">
+</head>
+<body>
+  <h2>E2 SEM1 CGPA CALC</h2>
+  <div class="container">
+    
+    <table class="centered" border="1">
+      <tr>
+        <th>subject</th>
+        <th>credits</th>
+        <th>grade</th>
+      </tr>
+      <tr>
+        <th>probability and statistics</th>
+        <th>4</th>
+        <th>
+          <select class="grade" data-credit="4">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Design & Analysis of Algorithms</th>
+        <th>4</th>
+        <th>
+          <select class="grade" data-credit="4">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Database Management Systems</th>
+        <th>3</th>
+        <th>
+          <select class="grade" data-credit="3">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Formal Language and Automata Theory</th>
+        <th>3</th>
+        <th>
+          
+            <select class="grade" data-credit="3">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Design Logic Design</th>
+        <th>3</th>
+        <th>
+          <select class="grade" data-credit="3">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+       
+          
+        </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Digital Logic Design Lab</th>
+        <th>1.5</th>
+        <th>
+          
+            <select class="grade" data-credit="1.5">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+            
+          
+        </th>
+      </tr>
+      <tr>
+        <th>Database Management Systems Lab</th>
+        <th>1.5</th>
+        <th>
+          
+            <select class="grade" data-credit="1.5">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+            
+          
+        </th>
+      </tr>
+      <tr>
+        <th>Design & Analysis of Algorithms Lab</th>
+        <th>1.5</th>
+        <th>
+          
+            <select class="grade" data-credit="1.5">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+            
+          
+        </th>
+      </tr>
+      
+     
+
+    </table>
+   
+  </div>
+  <button class="button" onclick="calculateCGPA()">CGPA</button>
+  <p id="result"></p>
+  <script src="cgpa_calc.js"></script>
+</body>
+</html>

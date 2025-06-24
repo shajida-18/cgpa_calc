@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGPA</title>
+  <link  rel="stylesheet" href="cgpa_calc.css">
+</head>
+<body>
+  <h2>E4 SEM1 CGPA CALC</h2>
+  <div class="container">
+    
+    <table class="centered" border="1">
+      <tr>
+        <th>subject</th>
+        <th>credits</th>
+        <th>grade</th>
+      </tr>
+      <tr>
+        <th>Elective- IV</th>
+        <th>3</th>
+        <th>
+          <select class="grade" data-credit="3">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Elective-V</th>
+        <th>3</th>
+        <th>
+          
+            <select class="grade" data-credit="3">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+        </th>
+      </tr>
+      <tr>
+        <th>Open Elective-II</th>
+        <th>3</th>
+        <th>
+          <select class="grade" data-credit="3">
+            <option value="10">EX</option>
+            <option value="9">A</option>
+            <option value="8">B</option>
+            <option value="7">C</option>
+            <option value="6">D</option>
+            <option value="5">E</option>
+            
+       
+          
+        </select>
+        </th>
+      </tr>
+     
+      
+      <tr>
+        <th> Project</th>
+        <th>6</th>
+        <th>
+          
+            <select class="grade" data-credit="1.5">
+              <option value="10">EX</option>
+              <option value="9">A</option>
+              <option value="8">B</option>
+              <option value="7">C</option>
+              <option value="6">D</option>
+              <option value="5">E</option>
+              
+         
+            
+          </select>
+            
+          
+        </th>
+      </tr>
+      
+      
+     
+
+    </table>
+   
+  </div>
+  <button class="button" onclick="calculateCGPA()">CGPA</button>
+  <p id="result"></p>
+  <script src="cgpa_calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+  background-color: azure;
+  text-align: center;
+}
+
+.container {
+
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+     
+  background-color: #c2a9a9;
+}
+
+.centered {
+  width: auto;
+  height: 200px;
+  background-color: rgb(219, 208, 208);
+  text-align: center;
+  
+  border: 2px solid black;
+  
+}
+.button{
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  margin-top: 10px;
+}
